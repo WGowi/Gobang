@@ -1,11 +1,8 @@
 package Game;
 
 import Memorandum.Memento;
-import Observer.Obs;
 import Piece.ChessFactory;
-import UI.InfoPanel;
 
-import javax.naming.InitialContext;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.MouseEvent;
@@ -80,9 +77,7 @@ public class SinglePlayerGame extends JPanel implements MouseListener, Chessboar
 
     }
 
-    public SinglePlayerGame(InfoPanel infoPanel)
-    {
-    }
+
 
     public void paint(Graphics g)
     {

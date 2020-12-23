@@ -1,19 +1,14 @@
 package Game;
 
 import Memorandum.Memento;
-import Observer.Obs;
-import Observer.Subject;
 import Piece.ChessFactory;
-import UI.InfoPanel;
 
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 import java.awt.image.BufferedImage;
-import java.io.ByteArrayOutputStream;
 import java.io.IOException;
-import java.io.ObjectOutputStream;
 import java.util.ArrayList;
 
 public class TwoPlayersGame extends JPanel implements MouseListener,ChessboardPanel
@@ -125,7 +120,7 @@ public class TwoPlayersGame extends JPanel implements MouseListener,ChessboardPa
     @Override
     public String getFirst()
     {
-        return null;
+        return "";
     }
 
     @Override
@@ -183,7 +178,7 @@ public class TwoPlayersGame extends JPanel implements MouseListener,ChessboardPa
         return message;
     }
 
-    private boolean checkWin()
+    public boolean checkWin()
     {
         boolean flag = false;
         String color = chess[x][y];
