@@ -12,6 +12,7 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ItemEvent;
 import java.awt.event.ItemListener;
+import java.util.ArrayList;
 
 public class ControlPanel extends JPanel
 {
@@ -131,6 +132,8 @@ public class ControlPanel extends JPanel
                 initChess(chessboardPanel1);
                 chessboardPanel1.setCanPlay(true);
                 chessboardPanel1.setChess(chess);
+                chessboardPanel1.getChessInfo().clear();
+                chessboardPanel1.saveMemento();
                 chessboardPanel1.repaint();
                 JOptionPane.showMessageDialog(ControlPanel.this, "游戏已开始");
             }

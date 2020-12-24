@@ -363,5 +363,16 @@ public class TwoPlayersGame extends JPanel implements MouseListener,ChessboardPa
         }
     }
 
+    @Override
+    public void setChessInfo(ArrayList chessInfo)
+    {
+        this.chessInfo = chessInfo;
+    }
+
+    @Override
+    public ArrayList getChessInfo()
+    {
+        return chessInfo;
+    }
 }
 

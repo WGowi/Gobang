@@ -3,6 +3,7 @@ package Game;
 import Memorandum.Memento;
 
 import java.awt.*;
+import java.util.ArrayList;
 
 public interface ChessboardPanel
 {
@@ -13,4 +14,6 @@ public interface ChessboardPanel
     public void paint(Graphics g);
     public void repaint();
     public String getFirst();
+    public ArrayList getChessInfo();
+    public void setChessInfo(ArrayList chessInfo);
 }

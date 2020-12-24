@@ -78,7 +78,6 @@ public class SinglePlayerGame extends JPanel implements MouseListener, Chessboar
     }
 
 
-
     public void paint(Graphics g)
     {
         //双缓冲技术
@@ -635,6 +634,18 @@ public class SinglePlayerGame extends JPanel implements MouseListener, Chessboar
     public String getFirst()
     {
         return first;
+    }
+
+    @Override
+    public void setChessInfo(ArrayList chessInfo)
+    {
+        this.chessInfo = chessInfo;
+    }
+
+    @Override
+    public ArrayList getChessInfo()
+    {
+        return chessInfo;
     }
 }
 
