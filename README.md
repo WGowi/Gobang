@@ -28,51 +28,35 @@
 
 #### 4.2.1 工厂方法模式
 
+
+
 ![](https://gowi-picgo.oss-cn-shenzhen.aliyuncs.com/%E5%9B%BE%E7%89%87%201.png)
 
 图 1工厂方法模式视图
 
- 
 
- 
-
- 
-
- 
-
- 
 
 #### 4.2.2 享元模式
+
+
 
 ![](https://gowi-picgo.oss-cn-shenzhen.aliyuncs.com/%E5%9B%BE%E7%89%87%202.png)
 图 2享元模式视图
 
  
 
- 
-
- 
-
- 
-
- 
-
- 
-
 #### 4.2.3 备忘录模式
+
+
 
 ![](https://gowi-picgo.oss-cn-shenzhen.aliyuncs.com/%E5%9B%BE%E7%89%87%203.png)
 图 3备忘录模式视图
 
  
 
- 
-
- 
-
- 
-
 #### 4.2.4 观察者模式
+
+
 
 ![](https://gowi-picgo.oss-cn-shenzhen.aliyuncs.com/%E5%9B%BE%E7%89%87%204.png)
 
@@ -80,29 +64,15 @@
 
  
 
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 #### 4.2.5 策略模式
+
+
 
 ![](https://gowi-picgo.oss-cn-shenzhen.aliyuncs.com/%E5%9B%BE%E7%89%87%205.png)
 
 图 5策略模式视图
 
- 
-
- 
-
- 
+  
 
 ## 四、  系统设计
 
